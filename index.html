@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="prototype9.css">
+        <link rel="shortcut icon" href="" />
+        <title>Prototype 9</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <!-- JavaScript -->
+        <script src="prototype9.js"></script>
+
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://rsms.me/">
+        <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+    </head>
+
+    <body>
+        <section class="text-wrapper">
+            <div class="feature half-opacity" id="control">
+                <h2>Control all cloud assets—across different cloud providers such as AWS, K8s, and SaaS apps—all in one place</h2>
+            </div>
+
+            <div class="feature half-opacity" id="codify">
+                <h2>Automatically turn cloud into IaC, including dependencies and modules</h2>
+                <p>Accelerate full IaC coverage without tedious manual coding, keep your cloud fully covered by IaC as your resources flex, and instantly migrate from any IaC tool to another.</p>
+            </div>
+
+            <div class="feature half-opacity" id="drift">
+                <h2>Spend more time building, less time on production issues</h2>
+                <p>Automatically detect and remediate drifts and misconfigurations, see change history, roll back to previous configurations, and recover mistakenly deleted assets.</p>
+            </div>
+
+            <div class="feature half-opacity" id="policies">
+                <h2>Consistently apply best practices and AI-driven policies</h2>
+                <p>Prevent downtime, eliminate cloud waste, and improve compliance and security posture.</p>
+            </div>
+        </section>
+
+        <section id="svg-outer-wrapper">
+            <div id="svg-inner-wrapper">
+                <div id="cursor"></div>
+                <img id="assetCards" src="./assets/assetCards.svg" class="margin-bottom-15">
+                <img id="coverageCard" src="./assets/coverageCard.svg" class="margin-bottom-15">
+                <img id="coverageCardWithHighlight" src="./assets/coverageCardWithHighlight.svg" class="display-none margin-bottom-15">
+                <img id="insightCards" src="./assets/insightCards.svg">
+                <img id="unmanagedRow1" src="./assets/unmanagedRow1.svg">
+                <img id="unmanagedRow2" src="./assets/unmanagedRow2.svg">
+                <img id="unmanagedRow2WithHighlight" src="./assets/unmanagedRow2WithHighlight.svg" class="display-none">
+                <img id="unmanagedRow3" src="./assets/unmanagedRow3.svg">
+                <img id="unmanagedDetails" src="./assets/unmanagedDetails.svg" class="margin-auto no-opacity">
+                <img id="unmanagedCode" src="./assets/unmanagedCode.svg">
+                <img id="unmanagedPR" src="./assets/unmanagedPR.svg" class="margin-auto">
+                <img id="driftAlert" src="./assets/driftAlert.svg" class="margin-auto">
+                <img id="driftCode" src="./assets/driftCode.svg" class="margin-auto no-opacity">
+                <img id="driftPR" src="./assets/driftPR.svg" class="no-opacity">
+                <div id="insightsWrapper">
+                    <img id="optimizationCard" src="./assets/optimizationCard.svg" class="margin-bottom-30 no-opacity">
+                    <img id="misconfigurationCard" src="./assets/misconfigurationCard.svg" class="float-right margin-bottom-30 no-opacity">
+                    <img id="reliabilityCard" src="./assets/reliabilityCard.svg" class="no-opacity">
+                </div>
+            </div>
+        </section>
+    </body>
+</html>

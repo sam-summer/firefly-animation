@@ -1,0 +1,133 @@
+* {
+    scroll-behavior: smooth;
+}
+
+:root {
+    font-family: 'Inter', sans-serif;
+}
+
+@supports (font-variation-settings: normal) {
+    :root {
+        font-family: 'Inter var', sans-serif;
+        font-feature-settings: "ss02" on; /* turns on disambiguation characters */
+    }
+}
+
+html {
+    font-size: 1px;
+}
+
+body {
+    color: #303048;
+    display: grid;
+    font-size: 18rem;
+    grid-template-columns: 450rem 1fr;
+    line-height: 1.6em;
+    margin: 0;
+}
+
+h1 {
+    font-size: 48rem;
+    font-weight: 600;
+    line-height: 1.2em;
+}
+
+h2 {
+    font-size: 24rem;
+    font-weight: 900;
+    line-height: 1.2em;
+    margin-top: 4em;
+}
+
+p {
+    letter-spacing: 0.01em;
+}
+
+.text-wrapper {
+    padding: 300rem 36rem;
+    margin-bottom: 300rem;
+}
+
+#svg-outer-wrapper {
+    align-items: center;
+    display: grid;
+    height: 100vh;
+    height: 100dvh;
+}
+
+#svg-inner-wrapper {
+    height: 548px;
+    max-width: 809px;
+    overflow: hidden;
+    position: fixed;
+}
+
+#svg-inner-wrapper img {
+    display: block;
+    max-height: 548px;
+    max-width: 100%;
+    transition: max-height 0.5s ease-out, opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+#cursor {
+    background-color: #303048;
+    border: 2px solid #303048;
+    border-radius: 100rem;
+    filter: drop-shadow(0 0 3px #9c9cae);
+    height: 12rem;
+    position: absolute;
+    transform: translate3d(-20px, 0, 0);
+    transition: transform 1s ease-in-out, opacity 0.5s ease-out;;
+    width: 12rem;
+    z-index: 10;
+}
+
+.feature {
+    transition: opacity 0.5s ease-out;
+}
+
+.half-opacity {
+    opacity: 0.5;
+}
+
+.quarter-opacity {
+    opacity: 0.25;
+}
+
+.no-opacity {
+    opacity: 0;
+}
+
+.display-none {
+    display: none !important;
+}
+
+.max-height-0 {
+    max-height: 0 !important;
+}
+
+.margin-bottom-15 {
+    margin-bottom: 15rem;
+}
+
+.margin-bottom-30 {
+    margin-bottom: 30rem;
+}
+
+.margin-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.float-right {
+    float: right;
+}
+
+
+
+
+
+
+
+
+
